@@ -1,7 +1,0 @@
-#!/usr/bin/env sh
-SRC_DIR="`pwd`"
-cd "`dirname "$0"`"
-cd "../vendor/sauce/connect/bin"
-BIN_TARGET="`pwd`/sauce_connect"
-cd "$SRC_DIR"
-"$BIN_TARGET" "$@"
